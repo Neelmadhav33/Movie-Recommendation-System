@@ -1,0 +1,20 @@
+# =============================================================================
+# FILE: requirements.txt
+# Install all dependencies with:   pip install -r requirements.txt
+# =============================================================================
+
+# Core data science
+pandas>=1.5.0          # DataFrames, CSV loading, data manipulation
+numpy>=1.23.0          # Numerical arrays, sorting
+
+# Machine learning (TF-IDF + cosine similarity)
+scikit-learn>=1.1.0    # TfidfVectorizer, cosine_similarity
+
+# Web application UI
+streamlit>=1.25.0      # Interactive web app
+
+# Fuzzy matching (built-in Python, no install needed)
+# difflib — already in Python standard library
+
+# Optional: Jupyter for EDA
+jupyter>=1.0.0
